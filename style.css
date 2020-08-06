@@ -1,0 +1,86 @@
+body {
+  color: white;
+  background-image: url(pustynia.jpg);
+  width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: lightblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+a {
+  color: white;
+}
+
+.main-screen {
+  margin: auto;
+  color: black;
+}
+
+.display {
+  margin: auto;
+  height: 400px;
+  width: 400px;
+  background-color: #dac292;
+  color: #4f3222;
+  border-radius: 10px;
+  word-wrap: break-word;
+  font-family: Verdana,sans-serif;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.write-in {
+  margin: auto;
+  scrollbar-width: none;
+}
+
+#responses {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 400px;
+  border-radius: 10px;
+  resize: none;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+#resp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#start {
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.keyword-list {
+  margin: auto;
+  height: 400px;
+  width: 400px;
+  background-color: #dac292;
+  color: #4f3222;
+  word-wrap: break-word;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #8b6f47;
+  font-family: Verdana,sans-serif;
+}
