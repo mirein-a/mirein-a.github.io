@@ -117,7 +117,8 @@ document.addEventListener('DOMContentLoaded', () =>{
      }
    })
 
-   respButton.addEventListener('click', () => {
+   // everything we do
+   function conversation(){
      getResponse();
      eraseText();
      automaticScroll();
@@ -156,6 +157,12 @@ document.addEventListener('DOMContentLoaded', () =>{
        respondToKeyWords(c41);
      }
      automaticScroll();
+   }
+
+   document.addEventListener('keyup', enterTheResponse);
+
+   respButton.addEventListener('click', () => {
+     conversation();
    })
    /*
    state: keywords -> quote:
@@ -168,6 +175,13 @@ document.addEventListener('DOMContentLoaded', () =>{
    9: gruby -> c40
    10: procent -> c41
    */
+
+   // response is sent once 'enter' is clicked
+   function enterTheResponse(e) {
+     if (e.keyCode === 13) {
+       conversation();
+     }
+   }
 
    // collect response from textarea
    function getResponse() {
