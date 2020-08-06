@@ -22,9 +22,8 @@ a {
   color: white;
 }
 
-.main-screen {
-  margin: auto;
-  color: black;
+.main-screen * {
+  padding: 5px 5px;
 }
 
 .display {
@@ -49,7 +48,7 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 5px;
   width: 400px;
   border-radius: 10px;
   resize: none;
@@ -62,6 +61,7 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
 }
 
 #start {
