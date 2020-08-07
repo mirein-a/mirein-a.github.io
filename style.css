@@ -1,8 +1,7 @@
 body {
   color: white;
-  background-image: url(pustynia.jpg);
-  width: 100%;
-  height: auto;
+  background-image: url("pustynia.jpg");
+  background-size: 100%;
 }
 
 button {
